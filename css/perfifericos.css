@@ -1,0 +1,40 @@
+.ver_conteudo {
+    height: 30px;
+    display: flex;
+    text-align: center;
+    background-color: darkcyan;
+}
+.ver_conteudo > .texto{
+    font-size: 1.2em;
+    width: 80%;
+    background-color: blue;
+}
+.ver_conteudo > .done{
+    cursor: pointer;
+    width: 20%;
+    border-left: 1px solid white;
+    background-color: red;
+}
+.ver_conteudo > .done > span{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: #1f1fc4;
+}
+.ver_conteudo > .done:active{
+    background-color: #0000a0;
+}
+footer{
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: black;
+    text-shadow: 1px 1px black;
+}
+footer a{
+    color :white;
+    text-decoration: none;
+}

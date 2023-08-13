@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#burguer{
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    color: white;
+    background-color: #4242ff;
+}
+header{
+    text-shadow: 1px 1px black;
+    display: flex;
+    height: 60px;
+    background-color: black;
+}
+header h2{
+    font-size: 1.2em;
+}
+header section.textos{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav.menu_horizontal{
+    display: none;
+}
+main{
+    font-size: 1.4em;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+div.videos{
+    height: 220px;
+    max-width: 410px;
+    margin: 40px auto;
+    background-color: white;
+}
+div.videos > iframe{
+    width:100%;
+    height: 100%;
+}

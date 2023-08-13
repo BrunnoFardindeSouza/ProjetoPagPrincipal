@@ -1,0 +1,63 @@
+nav.menu_lateral{
+    position: absolute;
+    width: 97%;
+    height: 100%;
+    display: flex;
+    color: white;
+    overflow: hidden;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    flex-direction: column;
+    background-color: darkcyan;
+    animation: abrir 1s linear;
+    animation-timing-function: ease;
+
+}
+@keyframes abrir {
+    from{width: 0px;}
+    to{width: 97%}
+    
+}
+a{
+    font-size: 1.1em;
+}
+.itens_lateral{
+    height: auto;
+    width: 100%;
+    border-bottom: 4px solid white;
+    background-color: white;
+}
+.itens_lateral menu{
+    display: none;
+    margin-top: 2px;
+    width: 100%;
+    height: 100%;
+    animation: abrir_menu 1s linear;
+    animation-timing-function: ease;
+
+}
+
+@keyframes abrir_menu {
+    from{line-height:14px;}
+    to{line-height:40px;}
+    
+}
+
+.itens_lateral ul li{
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    background-color: blue;
+    border-top:1px solid white;
+    animation: abrir_menu .2s linear;
+    animation-timing-function: ease;
+}
+.itens_lateral ul li:active{
+    background-color: #0505c9;
+}
+.itens_lateral a{
+    display: block;
+    color: white;
+    text-decoration: none;
+
+}
