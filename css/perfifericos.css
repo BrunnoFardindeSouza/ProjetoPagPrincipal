@@ -33,6 +33,7 @@ footer{
     text-align: center;
     background-color: black;
     text-shadow: 1px 1px black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 footer a{
     color :white;
